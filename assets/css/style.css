@@ -24,6 +24,10 @@ header {
    display: inline-block;
 }
 
+.headerlogo:hover { 
+    background-color: pink; 
+}
+
 .headerRightNav {
     right: 0px;
     display: inline-block;
@@ -34,6 +38,10 @@ header {
 .headerRightNav a {
     text-decoration: none;
     color: #777;
+}
+
+.headerRightNav a:hover { 
+    color: pink; 
 }
 
 .headerlogo h1 {
@@ -123,6 +131,10 @@ body {
     cursor: pointer;
 }
 
+.button:hover {
+    background-color: pink; 
+}
+
 /** portfolio **/
 
 .project {
@@ -152,4 +164,8 @@ body {
     padding-top: 15px;
     font-size: 18px;
     color: white;
+}
+
+.projectname:hover { 
+    background-color: pink; 
 }
